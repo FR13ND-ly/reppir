@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-color: #b2dfdb;
+}
+
+.button {
+    background-color: #4db6ac;
+    border: 0;
+    font-weight: bold;
+    color: #00695c;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.button:hover {
+    background-color: #26a69a;
+    color: #004d40;
+    border-radius: 12px;
+}
+a:-webkit-any-link {
+  color: unset;
+  text-decoration: none!important;
+}
